@@ -20,8 +20,8 @@ jobs:
 
       - name: Extract fixed Android source
         run: |
-          unzip -o StoreTrack-Android-Source-v0.6.1-FIX.zip -d .
-
+          unzip -o StoreTrack-Android-Source-v0.6.1-Icon-Update.zip -d .
+          
       - name: Set up Java
         uses: actions/setup-java@v4
         with:
