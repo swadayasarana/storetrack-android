@@ -18,9 +18,9 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Extract Android source
+      - name: Extract fixed Android source
         run: |
-          unzip -o StoreTrack-Android-Source-v0.6.zip -d .
+          unzip -o StoreTrack-Android-Source-v0.6.1-FIX.zip -d .
 
       - name: Set up Java
         uses: actions/setup-java@v4
